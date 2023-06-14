@@ -1,0 +1,1296 @@
+/* Header + Body */
+body {
+  background-color: #ddd;
+}
+
+header {
+  display: flex;
+  background-color: rgb(54, 51, 51);
+  margin-top: -5.4%;
+  margin-left: -5%;
+  margin-right: -5%;
+  height: 100%;
+}
+
+.header02,
+.header03,
+.header04,
+.header05,
+.header06 {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+button,
+a {
+  font-family: "congenial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  letter-spacing: 0.05px;
+}
+
+.nextimg {
+  width: 55%;
+}
+
+.next {
+  margin-top: 45%;
+}
+
+.back {
+  margin-top: 45%;
+}
+
+.logo {
+  width: 140%;
+}
+
+.logodiv {
+  margin-top: 29%;
+  padding-left: 45%;
+}
+
+.headerom {
+  visibility: hidden;
+}
+
+.headerport {
+  visibility: hidden;
+}
+
+.headertemaer {
+  display: none;
+}
+
+/* Forside */
+.active {
+  background-color: #555;
+}
+
+.portbox {
+  display: none;
+}
+
+.portbox2 {
+  display: none;
+}
+
+.portcard1 {
+  display: none;
+}
+
+.portcard2 {
+  display: none;
+}
+
+.portcard3 {
+  display: none;
+}
+
+.portcard4 {
+  display: none;
+}
+
+.portcard5 {
+  display: none;
+}
+
+.ommig {
+  background-color: grey;
+  color: white;
+  margin-bottom: 3%;
+  padding: 10%;
+  width: 80%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 170%;
+  text-decoration: none;
+  margin-top: 3%;
+}
+
+.portfolio {
+  background-color: grey;
+  color: white;
+  padding: 10%;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 170%;
+}
+
+.indhold {
+  padding: 0 6%;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+.tema {
+  margin: 3% 0;
+  background-color: #ddd;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.tema02 {
+  margin-top: 6%;
+}
+
+/* Om mig */
+
+.omindhold {
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.ommigh1 {
+  display: flex;
+  justify-content: center;
+  font-size: 180%;
+  margin-bottom: 7%;
+  text-decoration: underline wavy 2px;
+  text-decoration-color: #d2b283;
+}
+
+.migimg {
+  border-radius: 50%;
+  width: 60%;
+}
+
+.migimga {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -3%;
+  margin-top: 5%;
+}
+
+.cbh2 {
+  display: flex;
+  justify-content: center;
+  font-size: 120%;
+  margin: 8%;
+}
+
+.pommig {
+  margin: 8%;
+  font-size: 100%;
+}
+
+.pommig2 {
+  display: none;
+}
+
+.skills {
+  background-color: #d2b283;
+  height: 105%;
+}
+
+.omh2 {
+  font-size: 110%;
+  display: flex;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+.omp {
+  position: relative;
+  right: -5%;
+  max-width: 95%;
+  padding: 0 5%;
+}
+
+/* TEMA 02 */
+.tema2indhold {
+  display: flex;
+  justify-content: center;
+}
+
+.t2h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+}
+
+.imgdiv02 {
+  display: flex;
+  justify-content: center;
+}
+
+.img02 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+}
+
+.temaknap {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #513216;
+  color: #ddd;
+  width: 25%;
+  border-radius: 6px;
+  padding: 1%;
+  margin: 1%;
+  position: relative;
+  left: 35%;
+  font-size: 100%;
+}
+
+.temaknap:hover,
+.temaknap2:hover,
+.temaknap3:hover {
+  color: #513216;
+  background-color: #ddd;
+}
+
+.temaknap2 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #513216;
+  color: #ddd;
+  width: 25%;
+  border-radius: 6px;
+  padding: 1%;
+  margin: 1%;
+  position: relative;
+  left: 18%;
+  font-size: 80%;
+}
+
+.temaknap3 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #513216;
+  color: #ddd;
+  width: 25%;
+  border-radius: 6px;
+  padding: 1%;
+  margin: 1%;
+  position: relative;
+  left: 52%;
+  top: -100%;
+  font-size: 80%;
+}
+
+/* TEMA 03 */
+.img03 {
+  width: 100%;
+}
+
+/* TEMA 04 */
+.img04 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.p04 {
+  width: 149%;
+}
+
+/* TEMA 05 */
+
+/* TEMA 06 */
+
+
+
+
+@media only screen and (min-width: 1055px) {
+
+  /* Header + Body */
+  header {
+    background-color: #7d4141;
+  }
+
+  .nextimg {
+    display: none;
+  }
+
+  .next {
+    display: none;
+  }
+
+  .back {
+    display: none;
+  }
+
+  .logo {
+    width: 60%;
+  }
+
+  .logodiv {
+    display: flex;
+    position: relative;
+    left: 191.25%;
+    top: -6%;
+    width: 50%;
+  }
+
+  .ommig {
+    display: none;
+  }
+
+  .indhold,
+  .portfolio {
+    display: none !important;
+  }
+
+  .activea {
+    text-shadow: black 0px 0px 10px;
+  }
+
+  .activeb {
+    color: white !important;
+  }
+
+  .headerom {
+    visibility: visible;
+    color: white;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 200%;
+    text-decoration: none;
+    position: relative;
+    top: 60%;
+    height: 30%;
+    width: 91%;
+    left: 80%;
+  }
+
+  .headerom:hover,
+  .headerport:hover {
+    color: black;
+  }
+
+  .headerport {
+    visibility: visible;
+    color: white;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 200%;
+    text-decoration: none;
+    position: relative;
+    top: 60%;
+    height: 30%;
+    left: 25%;
+  }
+
+  .dropdownindhold {
+    display: none;
+    position: relative;
+    z-index: 1;
+    top: 60%;
+    left: 7%;
+  }
+
+  .dropdown {
+    position: relative;
+    right: 15%;
+  }
+
+  .dropdownindhold a {
+    color: black;
+    padding: 16px 20px;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .dropdownindhold a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdownindhold {
+    display: flex;
+  }
+
+
+  .header02,
+  .header03,
+  .header04,
+  .header05,
+  .header06 {
+    display: flex;
+    color: rgb(0, 0, 0);
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 140%;
+    text-decoration: none;
+    position: relative;
+    width: 8%;
+  }
+
+  .header02 {
+    height: 13%;
+  }
+
+  .header03 {
+    height: 13%;
+  }
+
+  .header04 {
+    height: 13%;
+  }
+
+  .header05 {
+    height: 13%;
+  }
+
+  .header06 {
+    height: 13%;
+  }
+
+  body {
+    background-color: #7d4141;
+  }
+
+  main {
+    background-color: #7d4141;
+    margin: 0% 14%;
+  }
+
+
+  /* Forside */
+  .portbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+  }
+
+  .portcard1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ddd;
+    width: 50%;
+    height: 200%;
+    border-radius: 10px;
+    box-shadow: rgb(19, 19, 19) 0px 0px 15px;
+    margin-right: 3%;
+  }
+
+  .portcard2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ddd;
+    width: 50%;
+    height: 200%;
+    border-radius: 10px;
+    box-shadow: rgb(19, 19, 19) 0px 0px 15px;
+    margin-right: 1.5%;
+  }
+
+  .portcard3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ddd;
+    width: 50%;
+    height: 200%;
+    border-radius: 10px;
+    box-shadow: rgb(19, 19, 19) 0px 0px 15px;
+    margin-left: 1.5%;
+  }
+
+  .portcard4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ddd;
+    width: 50%;
+    height: 200%;
+    border-radius: 10px;
+    box-shadow: rgb(19, 19, 19) 0px 0px 15px;
+    margin-left: 3%;
+  }
+
+  .cardbutton {
+    background-color: #513216;
+    color: #ddd;
+    cursor: pointer;
+    width: 70%;
+    height: 45%;
+    border: none;
+    margin: 0% 15%;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    top: 10%;
+    padding-top: 7%;
+  }
+
+  .cardbutton:hover {
+    color: #513216;
+    background-color: #ddd;
+    box-shadow: black 0px 0px 4px;
+  }
+
+  .port02 {
+    display: flex;
+    justify-content: center;
+    height: 85%;
+  }
+
+  .port03 {
+    display: flex;
+    justify-content: center;
+    height: 85%;
+  }
+
+  .port04 {
+    display: flex;
+    justify-content: center;
+    height: 85%;
+  }
+
+  .port05 {
+    display: flex;
+    justify-content: center;
+    height: 85%;
+  }
+
+  .portimg02 {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+  }
+
+  .portimg03 {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+  }
+
+  .portimg04 {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+  }
+
+  .portimg05 {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+  }
+
+  .pportcard {
+    display: flex;
+    margin: 0% 15%;
+    margin-top: -10%;
+  }
+
+  .h3portcard {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    margin: 0% 5%;
+  }
+
+
+  /* Om mig */
+  .omindhold {
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 10%;
+  }
+
+  .ommigquery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .ommigh1p {
+    position: relative;
+    right: 75%;
+    width: 150%;
+  }
+
+  .ommigh1 {
+    font-size: 350%;
+    text-decoration: underline 5px;
+    text-decoration-color: #d2b283;
+    justify-content: center;
+  }
+
+  .pommig2 {
+    display: flex;
+    position: relative;
+  }
+
+  .pommig {
+    display: none;
+  }
+
+  .migimg {
+    border-radius: 50%;
+    width: 70%;
+  }
+
+  .migimga {
+    position: relative;
+    top: 3%;
+  }
+
+  .cbh2 {
+    position: relative;
+    color: #d2b283;
+    text-shadow: black 0px 0px 5px, black 0px 0px 5px, black 0px 0px 10px,
+      black 0px 0px 10px;
+    z-index: 1;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    top: -10%;
+  }
+
+  .skills {
+    position: relative;
+    background-color: #d2b283;
+    border-radius: 1.5%;
+    width: 100%;
+    height: 110%;
+    top: 5%;
+  }
+
+  .omh2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 3% 5%;
+    bottom: 1%;
+  }
+
+  .omp {
+    width: 80%;
+    position: relative;
+    right: -5%;
+    top: 1%;
+  }
+
+  /* TEMA 02 */
+  .tema2indhold {
+    display: flex;
+    justify-content: center;
+  }
+
+  .computerview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5% 9%;
+    margin-top: 5%;
+    min-width: 572px !important;
+  }
+
+  .t2h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    margin-top: 10%;
+  }
+
+  .imgdiv02 {
+    display: block;
+    justify-content: center;
+    width: auto;
+    height: auto;
+  }
+
+  .img02 {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .temaknap {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #513216;
+    color: #ddd;
+    width: 20%;
+    border-radius: 6px;
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+    left: 38%;
+    font-size: 100%;
+  }
+
+  .temaknap:hover,
+  .temaknap2:hover,
+  .temaknap3:hover {
+    color: #513216;
+    background-color: #ddd;
+  }
+
+  .temaknap2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #513216;
+    color: #ddd;
+    width: 20%;
+    border-radius: 6px;
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+    left: 26%;
+    font-size: 80%;
+  }
+
+  .temaknap3 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #513216;
+    color: #ddd;
+    width: 20%;
+    border-radius: 6px;
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+    left: 50%;
+    top: -100%;
+    font-size: 80%;
+  }
+
+
+  /* TEMA 03 */
+  .img03 {
+    width: 100%;
+  }
+
+  /* TEMA 04 */
+  .img04 {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  .p04 {
+    width: 149%;
+  }
+
+  /* TEMA 05 */
+
+  /* TEMA 06 */
+}
+
+@media only screen and (min-width: 1365px) {
+
+  /* Header + Body */
+  header {
+    background-color: #7d4141;
+  }
+
+  .nextimg {
+    display: none;
+  }
+
+  .next {
+    display: none;
+  }
+
+  .back {
+    display: none;
+  }
+
+  .logo {
+    width: 60%;
+  }
+
+  .logodiv {
+    display: flex;
+    position: relative;
+    left: 191.25%;
+    top: -6%;
+    width: 50%;
+  }
+
+  .ommig {
+    display: none;
+  }
+
+  .indhold,
+  .portfolio {
+    display: none !important;
+  }
+
+  .activea {
+    text-shadow: black 0px 0px 10px;
+  }
+
+  .activeb {
+    color: white !important;
+  }
+
+  .headerom {
+    visibility: visible;
+    color: white;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 200%;
+    text-decoration: none;
+    position: relative;
+    top: 60%;
+    height: 30%;
+    width: 91%;
+    left: 75%;
+  }
+
+  .headerom:hover,
+  .headerport:hover {
+    color: black;
+  }
+
+  .headerport {
+    visibility: visible;
+    color: white;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 200%;
+    text-decoration: none;
+    position: relative;
+    top: 60%;
+    height: 30%;
+    left: 30%;
+  }
+
+  .dropdownindhold {
+    display: none;
+    position: relative;
+    z-index: 1;
+    top: 60%;
+    left: 15%;
+  }
+
+  .dropdown {
+    position: relative;
+    left: 20%;
+  }
+
+  .dropdownindhold a {
+    color: black;
+    padding: 16px 20px;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .dropdownindhold a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdownindhold {
+    display: flex;
+  }
+
+
+  .header02,
+  .header03,
+  .header04,
+  .header05,
+  .header06 {
+    display: flex;
+    color: rgb(0, 0, 0);
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 140%;
+    text-decoration: none;
+    position: relative;
+    width: 8%;
+  }
+
+  .header02 {
+    height: 13%;
+  }
+
+  .header03 {
+    height: 13%;
+  }
+
+  .header04 {
+    height: 13%;
+  }
+
+  .header05 {
+    height: 13%;
+  }
+
+  .header06 {
+    height: 13%;
+  }
+
+  body {
+    background-color: #7d4141;
+  }
+
+  main {
+    background-color: #7d4141;
+    margin: 0% 14%;
+  }
+
+
+  /* Forside */
+  .portbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+  }
+
+  .portcard1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ddd;
+    width: 50%;
+    height: 200%;
+    border-radius: 10px;
+    box-shadow: rgb(19, 19, 19) 0px 0px 15px;
+    margin-right: 3%;
+  }
+
+  .portcard2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ddd;
+    width: 50%;
+    height: 200%;
+    border-radius: 10px;
+    box-shadow: rgb(19, 19, 19) 0px 0px 15px;
+    margin-right: 1.5%;
+  }
+
+  .portcard3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ddd;
+    width: 50%;
+    height: 200%;
+    border-radius: 10px;
+    box-shadow: rgb(19, 19, 19) 0px 0px 15px;
+    margin-left: 1.5%;
+  }
+
+  .portcard4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ddd;
+    width: 50%;
+    height: 200%;
+    border-radius: 10px;
+    box-shadow: rgb(19, 19, 19) 0px 0px 15px;
+    margin-left: 3%;
+  }
+
+  .cardbutton {
+    background-color: #513216;
+    color: #ddd;
+    cursor: pointer;
+    width: 70%;
+    height: 45%;
+    border: none;
+    margin: 0% 15%;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    top: 10%;
+    padding-top: 7%;
+  }
+
+  .cardbutton:hover {
+    color: #513216;
+    background-color: #ddd;
+    box-shadow: black 0px 0px 4px;
+  }
+
+  .port02 {
+    display: flex;
+    justify-content: center;
+    height: 85%;
+  }
+
+  .port03 {
+    display: flex;
+    justify-content: center;
+    height: 85%;
+  }
+
+  .port04 {
+    display: flex;
+    justify-content: center;
+    height: 85%;
+  }
+
+  .port05 {
+    display: flex;
+    justify-content: center;
+    height: 85%;
+  }
+
+  .portimg02 {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+  }
+
+  .portimg03 {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+  }
+
+  .portimg04 {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+  }
+
+  .portimg05 {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+  }
+
+  .pportcard {
+    display: flex;
+    margin: 0% 15%;
+    margin-top: -10%;
+  }
+
+  .h3portcard {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    margin: 0% 5%;
+  }
+
+
+  /* Om mig */
+  .omindhold {
+    display: flex;
+    margin-top: 6.5%;
+    margin-bottom: 7%;
+  }
+
+  .ommigquery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .omindhold p {
+    color: #ddd;
+  }
+
+  .ommigh1p {
+    position: relative;
+    right: 75%;
+    width: 150%;
+  }
+
+  .ommigh1 {
+    font-size: 350%;
+    text-decoration: underline 5px;
+    text-decoration-color: #d2b283;
+    justify-content: center;
+  }
+
+  .pommig2 {
+    display: flex;
+    position: relative;
+  }
+
+  .pommig {
+    display: none;
+  }
+
+  .migimg {
+    border-radius: 50%;
+    width: 70%;
+  }
+
+  .migimga {
+    position: relative;
+    top: 3%;
+  }
+
+  .cbh2 {
+    position: relative;
+    color: #d2b283;
+    text-shadow: black 0px 0px 5px, black 0px 0px 5px, black 0px 0px 10px,
+      black 0px 0px 10px;
+    z-index: 1;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    top: -10%;
+  }
+
+  .skills {
+    position: relative;
+    background-color: #d2b283;
+    border-radius: 1.5%;
+    width: 100%;
+    height: 105%;
+  }
+
+  .omh2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 3% 5%;
+    bottom: 1%;
+  }
+
+  .omp {
+    width: 80%;
+    position: relative;
+    right: -5%;
+    top: 1%;
+    color: black !important;
+  }
+
+  /* TEMA 02 */
+  .tema2indhold {
+    display: flex;
+    justify-content: center;
+  }
+
+  .computerview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5% 9%;
+    margin-top: 5%;
+    min-width: 572px !important;
+  }
+
+  .t2h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    margin-top: 8%;
+  }
+
+  .imgdiv02 {
+    display: block;
+    justify-content: center;
+    width: auto;
+    height: auto;
+  }
+
+  .img02 {
+    width: 100%;
+  }
+
+  .tema2indhold p {
+    color: #ddd;
+  }
+
+  .marginbottom {
+    margin-bottom: 10%;
+  }
+
+  .temaknap {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #513216;
+    color: #ddd;
+    width: 10%;
+    border-radius: 6px;
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+    left: 43%;
+    font-size: 80%;
+  }
+
+  .temaknap:hover,
+  .temaknap2:hover,
+  .temaknap3:hover {
+    color: #513216;
+    background-color: #ddd;
+  }
+
+  .temaknap2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #513216;
+    color: #ddd;
+    width: 10%;
+    border-radius: 6px;
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+    left: 36%;
+    font-size: 80%;
+  }
+
+  .temaknap3 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #513216;
+    color: #ddd;
+    width: 10%;
+    border-radius: 6px;
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+    left: 50%;
+    top: -100%;
+    font-size: 80%;
+  }
+
+
+  /* TEMA 03 */
+  .img03 {
+    width: 100%;
+  }
+
+  /* TEMA 04 */
+  .img04 {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  .p04 {
+    width: 149%;
+  }
+
+  /* TEMA 05 */
+
+  /* TEMA 06 */
+}

@@ -1,0 +1,254 @@
+body {
+  margin: 0 auto;
+}
+
+/*grid nr. 1*/
+
+.grid-1-1-1 {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(1, 500px);
+  background: url(../img/pizza-g4bcdfa8d4_1920.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  place-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .grid-1-1-1 {
+    display: inline;
+    background-image: none;
+  }
+
+  .container_bestil {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.2em;
+    font-size: 15px;
+  }
+  .img_container {
+    text-align: center;
+  }
+}
+
+.grid-1-1-1 img {
+  max-width: 60%;
+}
+
+.justeat {
+  text-align: center;
+}
+
+.dagensmenu {
+  text-align: center;
+}
+
+.eatonline {
+  text-align: center;
+}
+
+/*grid nr. 2*/
+
+.grid-1-1 {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1, 500px);
+}
+
+.grid-item-maps {
+  background-color: #008c45;
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+.grid-item-tekst {
+  background-color: #008c45;
+  grid-column: 1/2;
+  grid-row: 1;
+}
+
+/*styling*/
+
+
+.active{
+font-weight: bold;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 15.5px;
+  letter-spacing: 2.5px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.footer {
+  padding: 0;
+}
+
+.footer .container {
+  max-width: 100%;
+  padding: 10px 0;
+  background-color: black;
+  color: white;
+}
+
+.footer .container .info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .virksomheden {
+  flex: 0 0 auto;
+  padding-left: 40px;
+  margin-right: 25%;
+}
+
+.footer .virksomheden a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .virksomheden img {
+  max-height: 100px;
+}
+
+.footer .menu {
+  flex: 0 0 auto;
+  margin-right: 25%;
+}
+
+.footer .menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer .menu li {
+  box-sizing: border-box;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.footer .menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .aabningstider {
+  flex: 0 0 auto;
+  margin-right: 7.5%;
+}
+
+.footer .aabningstider ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer .aabningstider li {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .footer .virksomheden,
+  .footer .menu,
+  .footer .aabningstider {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer .virksomheden,
+  .footer .menu,
+  .footer .aabningstider {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
+}
+
+.footer .kontrolrapport-betalingskort-some {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.footer .kontrolrapport {
+  flex: 0 0 auto;
+  padding-left: 40px;
+  margin-right: 30%;
+}
+
+.footer .kontrolrapport img {
+  height: 30px;
+  object-fit: contain;
+  object-position: left;
+}
+
+.footer .betalingsmuligheder {
+  flex: 0 0 auto;
+  margin-right: 20%;
+}
+
+.footer .betalingsmuligheder img {
+  height: 30px;
+  object-fit: contain;
+  object-position: left;
+}
+
+.footer .sociale-medier {
+  flex: 0 0 auto;
+  padding-left: 0px;
+}
+
+.footer .sociale-medier ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.footer .sociale-medier li {
+  margin-right: 5px;
+}
+
+.footer .sociale-medier img {
+  width: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer .kontrolrapport,
+  .footer .betalingsmuligheder,
+  .footer .sociale-medier {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer .kontrolrapport,
+  .footer .betalingsmuligheder,
+  .footer .sociale-medier {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
+}
+
+/* Footer slut */

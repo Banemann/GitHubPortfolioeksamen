@@ -1,0 +1,213 @@
+body{
+    max-width: 1920px;
+    font-family: "ff-cocon-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul, nav{
+    margin: 0;
+    padding-left: 25%;
+    padding-top: 10%;
+}
+ul li{
+    display: flex;
+    border-radius: 50px;
+    background: linear-gradient(145deg,  #55200d, #61260f);
+    box-shadow:  20px 20px 60px #4e1f0c,
+                 -20px -20px 60px #6c2910;
+    height: 90px;
+    width: 140px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+h1{
+    display: flex;
+    width: fit-content;
+}
+img{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-size: 140%;
+    color: #f76125;
+    padding-top: 19%;
+    min-width: 100%;
+    text-align: center;
+    text-shadow: 20px 20px 60px #000000,
+                -20px -20px 60px #742a0f;
+}
+a:hover{
+    border-radius: 50px;
+    background: #9e0202;
+    box-shadow: inset 20px 20px 60px #4d1e0b,
+                inset -20px -20px 60px #68270f;
+}
+.homebutton{
+    height: 150%;
+    width: 160%;
+    padding: 0%;
+    margin-left: -32%;
+    margin-top: -21%;
+}
+#navicon{
+    margin-bottom: 50%;
+    width: 50%;
+    height: 0%;
+}
+.pressed{
+    border-radius: 50px;
+    background: #5e240e;
+    box-shadow: inset 20px 20px 60px #3b1708,
+                inset -20px -20px 60px #68270f;
+}
+.card{
+    position: relative;
+    margin-left: 45%;
+    margin-top: 5%;
+    width: 45%;
+    height: 90%;
+    background: #ab431a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.cardforside{
+    position: relative;
+    background: #ab431a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 70%;
+    height: 220%;
+    margin-left: 15%;
+    margin-top: 8%;
+
+    animation: wiggle 4s linear infinite;
+    animation-delay: 3s;
+}
+.card::before,.card::after{
+    animation: colorcard 5s linear;
+    animation-delay: 2.5s;
+    animation-play-state: running;
+}
+.card:hover::before, .card:hover::after {
+    animation-play-state: paused;
+}
+.indexh1{
+    font-size: 60px;
+    color: lightblue;
+}
+div img{
+    max-width: 90%;
+}
+.latteimg, .cappuccinoimg{
+    width: 95%;
+}
+.card::before,.card::after{
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: lightblue;
+    transition: all 0.5s;
+    line-height: 200%;
+}
+.card:hover::before,.card:hover:after{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+.card::before{
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+}
+.card::after{
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+}
+.card:hover:after{
+    text-align: center;
+}
+#cardindex.card:hover:after{
+    content: "Enter";
+}
+#cardblack:hover:after{
+    content: "This is the simplest form of coffee, made by brewing coffee grounds in hot water without any added milk, cream, or sweeteners. Black coffee has a strong, bold flavor and can be enjoyed either hot or iced.";
+    opacity: 1;
+}
+#cardamericano:hover:after{
+    content: "An Americano is made by adding hot water to a shot of espresso, creating a lighter-bodied coffee with a similar flavor to drip coffee. The name Americano is said to have originated during World War II when American soldiers stationed in Europe would add hot water to their espresso to dilute it and make it more similar to the coffee they were used to back home.";
+}
+#cardespresso:hover:after{
+    content: "Espresso is a concentrated shot of coffee made by forcing hot water through fine ground coffee beans under high pressure. The result is a strong, intense flavor and a velvety, creamy texture with a layer of crema on top.";
+}
+#cardlatte:hover:after{
+    content: "A latte is made with a shot of espresso and steamed milk, with a thin layer of foam on top. The milk adds a creamy, smooth texture and helps to balance out the strong, bitter flavor of the espresso.";
+}
+#cardcappuccino:hover:after{
+    content: "This classic Italian coffee is made with equal parts espresso, steamed milk, and foam. The espresso gives the drink its strong, bold flavor, while the steamed milk adds a velvety texture and the foam provides a light, airy top layer.";
+}
+@keyframes wiggle{
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-1deg);
+    }
+    20% {
+      transform: rotateZ(1deg);
+    }
+    25% {
+      transform: rotateZ(-1deg);
+    }
+    30% {
+      transform: rotateZ(1deg);
+    }
+    35% {
+      transform: rotateZ(-1deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+}
+@keyframes colorcard{
+    0%, 7%{
+        transform: scale(100%);
+    }
+    15%{
+        transform: scale(115%);
+    }
+    20%{
+        transform: scale(100%);
+    }
+    25%{
+        transform: scale(115%);
+    }
+    30%{
+        transform: scale(100%);
+    }
+    35%{
+        transform: scale(115%);
+    }
+    40%, 100%{
+        transform: scale(100%);
+    }
+}
